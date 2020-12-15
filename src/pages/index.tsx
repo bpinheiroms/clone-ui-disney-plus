@@ -10,7 +10,7 @@ const Home: React.FC = () => {
         <title>Homepage</title>
       </Head>
       <h1>Homepage</h1>
-      <p>Inicio</p>
+      <p>Pagina Inicial</p>
     </Container>
   )
 }
