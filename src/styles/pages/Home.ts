@@ -1,23 +1,60 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-  width: 100vw;
-  height: 100vh;
-
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
+  padding: 12px;
+  padding-bottom: 48px;
+`
 
-  h1 {
-    font-size: 54px;
-    color: ${props => props.theme.colors.primary};
-    margin-top: 40px;
+export const Header = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+
+  svg {
+    cursor: pointer;
+    width: 80px;
+  }
+`
+
+export const Menus = styled.div`
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 0 40px;
+
+`
+
+export const IconBox = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 12px;
+  cursor: pointer;
+
+  .icon{
+    width: 24px;
+    margin: 0 8px;
   }
 
-  p {
-    margin-top: 24px;
-    font-size: 24px;
-    line-height: 32px;
+  .title {
+    color: rgb(249, 249, 249);
+    font-family: Avenir-Heavy, sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
   }
+`
+
+export const Profile = styled(Header)`
+
+  .profile{
+    height: 48px;
+    width: 48px;
+    border-radius: 24px;
+    cursor: pointer;
+  }
+
 `

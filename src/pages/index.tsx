@@ -1,7 +1,10 @@
 import React from 'react'
 import Head from 'next/head'
 
-import { Container } from '../styles/pages/Home'
+import { Container, Header, Menus, Profile } from '../styles/pages/Home'
+import DisneyLogo from '../assets/icons/logo.svg'
+import MenusButton from '../components/menus-button.index'
+import ProfileImage from '../../public/woody_profile.jpg'
 
 const Home: React.FC = () => {
   return (
@@ -9,8 +12,15 @@ const Home: React.FC = () => {
       <Head>
         <title>Homepage</title>
       </Head>
-      <h1>Homepage</h1>
-      <p>Pagina Inicial</p>
+      <Header>
+        <DisneyLogo />
+        <Menus>
+          <MenusButton />
+          <Profile>
+            <img className="profile" src={ProfileImage} alt="profile" />
+          </Profile>
+        </Menus>
+      </Header>
     </Container>
   )
 }
