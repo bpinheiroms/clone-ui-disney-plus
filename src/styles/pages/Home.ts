@@ -61,7 +61,7 @@ export const Slider = styled.div`
   margin-top: 45px;
 
   .slider-wrapper {
-    max-height: 285px !important;
+    max-height: 312px !important;
   }
   .card {
     position: relative;
@@ -72,5 +72,21 @@ export const Slider = styled.div`
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    transition-delay: 2s;
+  }
+
+  li.slide{
+    background: transparent !important;
+  }
+
+  .slide {
+    padding-left: 20px !important;
+  }
+
+  .card{
+    width: 1240px;
+  object-fit: cover;
+  border-radius: 8px;
+  cursor: pointer;
   }
 `
