@@ -1,7 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 
-import { Container, Header, Menus, Profile } from '../styles/pages/Home'
+import { Container, Header, Menus, Profile, Slider } from '../styles/pages/Home'
 import DisneyLogo from '../assets/icons/logo.svg'
 import MenusButton from '../components/menus-button.index'
 import ProfileImage from '../../public/woody_profile.jpg'
@@ -22,7 +22,9 @@ const Home: React.FC = () => {
           </Profile>
         </Menus>
       </Header>
-      <CarouselComponent />
+      <Slider>
+        <CarouselComponent />
+      </Slider>
     </Container>
   )
 }

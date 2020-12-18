@@ -57,3 +57,20 @@ export const Profile = styled(Header)`
     cursor: pointer;
   }
 `
+export const Slider = styled.div`
+  margin-top: 45px;
+
+  .slider-wrapper {
+    max-height: 285px !important;
+  }
+  .card {
+    position: relative;
+  }
+
+  .logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+`
