@@ -25,7 +25,6 @@ export const Menus = styled.div`
   flex-direction: row;
   width: 100%;
   padding: 0 40px;
-
 `
 
 export const IconBox = styled.div`
@@ -35,7 +34,7 @@ export const IconBox = styled.div`
   margin: 0 12px;
   cursor: pointer;
 
-  .icon{
+  .icon {
     width: 24px;
     margin: 0 8px;
   }
@@ -49,12 +48,12 @@ export const IconBox = styled.div`
 `
 
 export const Profile = styled(Header)`
+  margin-left: auto;
 
-  .profile{
+  .profile {
     height: 48px;
     width: 48px;
     border-radius: 24px;
     cursor: pointer;
   }
-
 `
