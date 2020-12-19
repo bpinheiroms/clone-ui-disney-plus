@@ -87,7 +87,7 @@ export const Slider = styled.div`
     cursor: pointer;
   }
 `
-export const MenusFixeds = styled.div`
+export const MenusBody = styled.div`
   margin-top: 32px;
   width: 100%;
 
@@ -100,6 +100,7 @@ export const MenusFixeds = styled.div`
 
   section .categorie {
     width: calc(20% - 20px);
+    margin-left: -27px;
     background: linear-gradient(rgb(48, 50, 62), rgb(30, 31, 42)) 0% 0% / cover;
 
     border-radius: 10px;
@@ -146,4 +147,35 @@ export const MenusFixeds = styled.div`
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
   }
+`
+export const MovieContainer = styled.div`
+
+margin-left: 6px;
+
+  .carousel .slide {
+    background: transparent;
+  }
+
+  h4 {
+    margin-top: 48px;
+    margin-left: 4px;
+    padding: 0 44px;
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  .carousel .carousel-movies {
+    margin-left: 44px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+  }
+  .carousel .carousel-movies img {
+    margin-right: 15px;
+    width: 300px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
 `

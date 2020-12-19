@@ -7,7 +7,7 @@ import MulanImage from '../../public/image3.jpeg'
 import MulanLogo from '../../public/logo3.png'
 import { Carousel } from 'react-responsive-carousel'
 
-const CarouselComponent: React.FC = () => {
+const CarouselBannerComponent: React.FC = () => {
   return (
     <Carousel
       className="carousel"
@@ -35,4 +35,4 @@ const CarouselComponent: React.FC = () => {
   )
 }
 
-export default CarouselComponent
+export default CarouselBannerComponent
