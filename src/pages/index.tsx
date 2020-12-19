@@ -20,7 +20,6 @@ import NationalCard from '../../public/fixeds/national.png'
 import PixarCard from '../../public/fixeds/pixar.png'
 import StarWarsCard from '../../public/fixeds/starwars.png'
 
-
 const Home: React.FC = () => {
   return (
     <Container>
@@ -42,23 +41,63 @@ const Home: React.FC = () => {
       <MenusFixeds>
         <section className="categories-box">
           <div className="categorie">
-            <img src={DisneyCard} alt="" />
+            <div className="categorieItem">
+              <img src={DisneyCard} alt="disney card" />
+              <video className="hover-image" autoPlay muted loop>
+                <source
+                  src="https://vod-bgc-sa-east-1.media.dssott.com/bgui/ps01/disney/bgui/2019/08/01/1564674844-disney.mp4"
+                  type="video/mp4"
+                />
+              </video>
+            </div>
           </div>
 
           <div className="categorie">
-            <img src={PixarCard} alt="" />
+            <div className="categorieItem">
+              <img src={PixarCard} alt="pixar card" />
+              <video className="hover-image" autoPlay muted loop>
+                <source
+                  src="https://vod-bgc-sa-east-1.media.dssott.com/bgui/ps01/disney/bgui/2019/08/01/1564676714-pixar.mp4"
+                  type="video/mp4"
+                />
+              </video>
+            </div>
           </div>
 
           <div className="categorie">
-            <img src={MarvelCard} alt="" />
+            <div className="categorieItem">
+              <img src={MarvelCard} alt="marvel card" />
+              <video className="hover-image" autoPlay muted loop>
+                <source
+                  src="https://vod-bgc-sa-east-1.media.dssott.com/bgui/ps01/disney/bgui/2019/08/01/1564676115-marvel.mp4"
+                  type="video/mp4"
+                />
+              </video>
+            </div>
           </div>
 
           <div className="categorie">
-            <img src={StarWarsCard} alt="" />
+            <div className="categorieItem">
+              <img src={StarWarsCard} alt="star wars card" />
+              <video className="hover-image" autoPlay muted loop>
+                <source
+                  src="https://vod-bgc-sa-east-1.media.dssott.com/bgui/ps01/disney/bgui/2020/04/03/1585929840-star-wars.mp4"
+                  type="video/mp4"
+                />
+              </video>
+            </div>
           </div>
 
           <div className="categorie">
-            <img src={NationalCard} alt="" />
+            <div className="categorieItem">
+              <img src={NationalCard} alt="national card" />
+              <video className="hover-image" autoPlay muted loop>
+                <source
+                  src="https://vod-bgc-sa-east-1.media.dssott.com/bgui/ps01/disney/bgui/2019/08/01/1564676296-national-geographic.mp4"
+                  type="video/mp4"
+                />
+              </video>
+            </div>
           </div>
         </section>
       </MenusFixeds>

@@ -110,14 +110,40 @@ export const MenusFixeds = styled.div`
     cursor: pointer;
   }
 
-  section .categorie:hover {
-    transform: scale(
-      1.1
-    ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  section .categorie .categorieItem {
+    position: relative;
   }
 
-  section .categorie img {
+  section .categorie:hover {
+    transform: scale(1.1);
+  }
+
+  section .categorie:hover .categorieItem video {
+    opacity: 1;
+  }
+
+  section .categorie .categorieItem img {
     width: 100%;
     height: 100%;
+    z-index: 1;
+    position: relative;
+  }
+
+  section .categorie .categorieItem video {
+    position: absolute;
+    border: solid 4px;
+
+    border-radius: 10px;
+    opacity: 0;
+    z-index: 0;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
   }
 `
