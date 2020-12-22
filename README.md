@@ -6,7 +6,7 @@
 
 <br/>
 
-## My Repositories
+## View Deployed
 
 - [Site](https://clone-ui-disney-plus.vercel.app/)
 
