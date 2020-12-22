@@ -87,53 +87,49 @@ export const Slider = styled.div`
     cursor: pointer;
   }
 `
+
 export const MenusBody = styled.div`
   margin-top: 32px;
   width: 100%;
+`
 
-  section {
-    padding: 0 80px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
+export const CategorieBox = styled.section`
+  padding: 0 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+`
 
-  section .categorie {
-    width: calc(20% - 20px);
-    margin-left: -27px;
-    background: linear-gradient(rgb(48, 50, 62), rgb(30, 31, 42)) 0% 0% / cover;
+export const Categorie = styled.div`
+  width: calc(20% - 20px);
+  margin-left: -27px;
+  background: linear-gradient(rgb(48, 50, 62), rgb(30, 31, 42)) 0% 0% / cover;
 
-    border-radius: 10px;
-    border: 2px solid #42444f;
-    box-shadow: rgba(0, 0, 0, 0.69) 0px 26px 30px -10px,
-      rgba(0, 0, 0, 0.73) 0px 16px 10px -10px;
+  border-radius: 10px;
+  border: 2px solid #42444f;
+  box-shadow: rgba(0, 0, 0, 0.69) 0px 26px 30px -10px,
+    rgba(0, 0, 0, 0.73) 0px 16px 10px -10px;
 
-    cursor: pointer;
-  }
+  cursor: pointer;
 
-  section .categorie .categorieItem {
-    position: relative;
-  }
-
-  section .categorie:hover {
+  &:hover {
     transform: scale(1.1);
   }
+`
 
-  section .categorie:hover .categorieItem video {
-    opacity: 1;
-  }
+export const CategorieItem = styled.div`
+  position: relative;
 
-  section .categorie .categorieItem img {
+  img {
     width: 100%;
     height: 100%;
     z-index: 1;
     position: relative;
   }
 
-  section .categorie .categorieItem video {
+  video {
     position: absolute;
     border: solid 4px;
-
     border-radius: 10px;
     opacity: 0;
     z-index: 0;
@@ -147,35 +143,38 @@ export const MenusBody = styled.div`
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
   }
-`
-export const MovieContainer = styled.div`
 
-margin-left: 6px;
+  ${Categorie}:hover & video {
+    opacity: 1;
+  }
+`
+
+export const MovieContainer = styled.div`
+  margin-left: 6px;
 
   .carousel .slide {
     background: transparent;
   }
+`
+export const TitleMovie = styled.h4`
+  margin-top: 48px;
+  margin-left: 4px;
+  padding: 0 44px;
+  font-size: 18px;
+  margin-bottom: 15px;
+`
 
-  h4 {
-    margin-top: 48px;
-    margin-left: 4px;
-    padding: 0 44px;
-    font-size: 18px;
-    margin-bottom: 15px;
-  }
+export const CarouselMovies = styled.div`
+  margin-left: 44px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
 
-  .carousel .carousel-movies {
-    margin-left: 44px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    cursor: pointer;
-  }
-  .carousel .carousel-movies img {
+  img {
     margin-right: 15px;
     width: 300px;
     border-radius: 8px;
     cursor: pointer;
   }
-
 `

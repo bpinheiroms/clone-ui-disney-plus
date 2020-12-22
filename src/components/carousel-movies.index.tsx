@@ -1,17 +1,20 @@
 import React from 'react'
 import { Carousel } from 'react-responsive-carousel'
 import CategoriesMovieList from '../datas/movies'
-import { MovieContainer } from '../styles/pages/Home'
+import {
+  MovieContainer,
+  TitleMovie,
+  CarouselMovies
+} from '../styles/pages/Home'
 
 const CarouselMoviesComponent: React.FC = () => {
   return (
     <>
       <MovieContainer>
         {CategoriesMovieList.map((movieList, index) => (
-          <>
-            <h4>{movieList.title}</h4>
+          <div key={index}>
+            <TitleMovie>{movieList.title}</TitleMovie>
             <Carousel
-              key={index}
               className="carousel"
               autoPlay={false}
               centerMode
@@ -21,17 +24,15 @@ const CarouselMoviesComponent: React.FC = () => {
               showIndicators={false}
               showStatus={false}
             >
-              <div className="carousel-movies">
+              <CarouselMovies key={index}>
                 {movieList.list.map((movie, i) => (
-                  <div className="movieImg">
-                    <img src={movie.src} alt={movie.alt} />
-                  </div>
+                  <img key={i} src={movie.src} alt={movie.alt} />
                 ))}
-              </div>
+              </CarouselMovies>
 
               <div />
             </Carousel>
-          </>
+          </div>
         ))}
       </MovieContainer>
     </>

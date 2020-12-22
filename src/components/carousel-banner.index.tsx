@@ -19,7 +19,7 @@ const CarouselBannerComponent: React.FC = () => {
       infiniteLoop={true}
       showStatus={false}
     >
-      <div className="slideGroup" >
+      <div>
         <img className="card" src={SoulImage} alt="mandalorian card" />
         <img className="logo" src={SoulLogo} alt="avengers endgame card" />
       </div>
