@@ -2,8 +2,9 @@
 
 ### Preview:
 
+![chrome-capture](https://user-images.githubusercontent.com/22135548/102851882-adffb200-43fb-11eb-908e-848d33e94d06.gif)
 
-
+<br/>
 
 
 ### Technologies used:
