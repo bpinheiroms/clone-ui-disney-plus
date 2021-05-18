@@ -13,6 +13,7 @@
 
 ### Used:
  - NextJs
+ - MondoDB
  - ReactJs
  - Styled Component
  - CSS
