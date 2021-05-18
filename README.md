@@ -2,31 +2,25 @@
 
 ### Preview:
 
-![chrome-capture](https://user-images.githubusercontent.com/22135548/102851882-adffb200-43fb-11eb-908e-848d33e94d06.gif)
+![register](https://user-images.githubusercontent.com/22135548/118581377-e9629a80-b767-11eb-930b-a31c902881d2.png)
+
+![login](https://user-images.githubusercontent.com/22135548/118581473-17e07580-b768-11eb-8bd6-f7e584082539.png)
+
+![home](https://user-images.githubusercontent.com/22135548/118581503-23cc3780-b768-11eb-9f01-a5421c146f35.png)
+
 
 <br/>
 
-## View Deployed
-
-- [Site](https://clone-ui-disney-plus.vercel.app/)
-
-
-### Technologies used:
+### Used:
  - NextJs
  - ReactJs
  - Styled Component
  - CSS
- - HTML5
  - Typescript
+ - Cypress
+ - Eslint
+ - Prettier
+ - Unform
+ - JWT
+ - Cookie with HttpOnly para armazenamento de token JWT.
  <br/>
- 
-<code><img height="32" src="https://user-images.githubusercontent.com/22135548/102849445-ee5c3180-43f5-11eb-8fae-6362d02db1e5.png" alt="NextJS"/></code>
-<code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" alt="React"/></code>
-<code><img height="32" src="https://user-images.githubusercontent.com/22135548/102849454-f3b97c00-43f5-11eb-9e13-5927921b4d3f.png" alt="Styled Component"/></code>
-<code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" alt="CSS"/></code>
-<code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" alt="HTML5"/></code>
-<code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png" alt="Typescript"/></code>
-<br/>
-
-
-
