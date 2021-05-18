@@ -6,8 +6,6 @@
 <br/>
 
 ## View Deployed
-![home](https://user-images.githubusercontent.com/22135548/118581503-23cc3780-b768-11eb-9f01-a5421c146f35.png)
-
 - [Site](https://clone-ui-disney-plus.vercel.app/)
 
 <br/>
